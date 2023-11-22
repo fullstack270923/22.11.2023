@@ -15,29 +15,34 @@
         // 1. AND && ........... x > 0 and y > 0
         // 2. OR || ..........   x <= 0 or y <= 0
 
-        x = parseInt(prompt('Enter a number:'))
-        if (x >= 0 && x <= 100) {
+        const x = parseInt(prompt('Enter 1st number:'))
+        const y = parseInt(prompt('Enter 2nd number:'))
+
+        if (x > 0 && y > 0) {
             document.write(x)
-            document.write(' is in range')
+            document.write(' , ')
+            document.write(y)
+            document.write(' are positive <br />')
         }
         else {
             document.write(x)
-            document.write(' is NOT in range')
+            document.write(' , ')
+            document.write(y)
+            document.write(' are NOT both positive <br />')
         }
 
-        x = parseInt(prompt('Enter a number:'))
-        if (x < 0 || x > 100) {
+        if (x <= 0 || y <= 0 ) {
             document.write(x)
-            document.write(' is NOT in range')
+            document.write(' , ')
+            document.write(y)
+            document.write(' are NOT both positive <br />')
         }
         else {
             document.write(x)
-            document.write(' is in range')
+            document.write(' , ')
+            document.write(y)
+            document.write(' are positive <br />')
         }
-
-
-
-
 
     </script>
 </body>
