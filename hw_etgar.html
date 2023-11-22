@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>home work solution</title>
+</head>
+<body>
+    <script>
+
+        x = parseInt(prompt('Enter a number (0-1000):'))
+
+        if (x < 0) {
+            document.write('negative number not in range')
+        }
+        // 0-9
+        else if (x < 10) {
+            document.write(x)
+            document.write(' ')
+            document.write('is 1 digit')
+        }
+        // 10-99
+        else if (x < 100) {
+            document.write(x)
+            document.write(' ')
+            document.write('is 2 digit')
+        }
+        // 100-999
+        else if (x < 1000) {
+            document.write(x)
+            document.write(' ')
+            document.write('is 3 digit')
+        }
+        // 1000
+        else if (x == 1000) {
+            document.write(x)
+            document.write(' ')
+            document.write('is 4 digit')
+        }
+        else {
+            document.write(x)
+            document.write(' ')
+            document.write('is not in range')
+        }
+
+    </script>
+</body>
+</html>

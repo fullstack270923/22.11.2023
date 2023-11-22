@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>between</title>
+</head>
+
+<body>
+    <script>
+
+        x = parseInt(prompt('Enter a number:'))
+
+        // is x between 24-36 including?
+        if (x >= 24) {
+            if (x <= 36) {
+                document.write(x)
+                document.write(' is between 24-36')
+            }
+        }
+
+        // is x between 24-36 including?
+        // if x is larger equal to 24 AND x is smaller equal to 36
+        if (x >= 24 && x <= 36) {
+            document.write(x)
+            document.write(' is between 24-36')
+        }
+
+        /*********************************************************************/
+
+        x = parseInt(prompt('Enter a number x:'))
+        y = parseInt(prompt('Enter a number y:'))
+        z = parseInt(prompt('Enter a number z:'))
+
+        if (x == y) {
+            document.write('found identical')
+        }
+        else if (y == z) {
+            document.write('found identical')
+        }
+
+        // if x == y or y == z
+        if (x == y || y == z) {
+            document.write('found identical')
+        }
+
+        // targil:
+        // input a numebr from the user
+        // the number should be between 0-100
+        // if the number if in the range of 0-100 then document.write 'number in range'
+        //  else document.write 'number NOT in range'
+        // 1. AND && ........... x >= 0 and x <= 100
+        // 2. OR || ..........   x < 0 or x > 100
+
+
+
+    </script>
+</body>
+
+</html>
