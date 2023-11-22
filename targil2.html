@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>between</title>
+</head>
+
+<body>
+    <script>
+        
+        // targil:
+        // input 2 numbers from the user x, y
+        // if both numbers are positive document.write 'both positive'
+        //  else document.write 'both NOT positive'
+        // 1. AND && ........... x > 0 and y > 0
+        // 2. OR || ..........   x <= 0 or y <= 0
+
+        x = parseInt(prompt('Enter a number:'))
+        if (x >= 0 && x <= 100) {
+            document.write(x)
+            document.write(' is in range')
+        }
+        else {
+            document.write(x)
+            document.write(' is NOT in range')
+        }
+
+        x = parseInt(prompt('Enter a number:'))
+        if (x < 0 || x > 100) {
+            document.write(x)
+            document.write(' is NOT in range')
+        }
+        else {
+            document.write(x)
+            document.write(' is in range')
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
